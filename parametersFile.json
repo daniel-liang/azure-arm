@@ -8,9 +8,6 @@
     "adminPassword": {
       "value": "Yecheng123456"
     },
-    "dnsLabelPrefix": {
-      "value": "[toLower(concat(parameters('vmName'),'-', uniqueString(resourceGroup().id, parameters('vmName'))))]"
-    },
     "publicIpName": {
       "value": "myPublicIP"
     },
